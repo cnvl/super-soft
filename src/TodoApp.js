@@ -10,11 +10,11 @@ import useTodoState from './hooks/useTodoState';
 
 function TodoApp() {
   const initialTodos = [
-    { id: 1, task: 'Change background color to green', completed: false },
+    { id: 1, task: 'Change background', completed: false },
     { id: 2, task: 'Update packages', completed: false },
     { id: 3, task: 'Test components', completed: false },
     { id: 4, task: 'Fix launch issue', completed: false },
-    { id: 5, task: 'Switch from angular to react', completed: true },
+    { id: 5, task: 'Improve security', completed: true },
   ];
   const { todos, addTodo, removeTodo, toggleTodo, editTodo } = useTodoState(
     initialTodos
