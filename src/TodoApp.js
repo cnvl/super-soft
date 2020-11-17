@@ -14,7 +14,7 @@ function TodoApp() {
     { id: 2, task: 'Update packages', completed: false },
     { id: 3, task: 'Test components', completed: false },
     { id: 4, task: 'Fix launch issue', completed: false },
-    { id: 4, task: 'Switch from angular to react', completed: true },
+    { id: 5, task: 'Switch from angular to react', completed: true },
   ];
   const { todos, addTodo, removeTodo, toggleTodo, editTodo } = useTodoState(
     initialTodos
