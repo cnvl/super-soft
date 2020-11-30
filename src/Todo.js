@@ -22,7 +22,7 @@ function Todo({ id, task, completed, removeTodo, toggleTodo, editTodo }) {
         />
       ) : (
         <>
-          
+         
           <ListItemText
             style={{ textDecoration: completed ? "line-through" : "none" }}
           >
