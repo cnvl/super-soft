@@ -23,6 +23,5 @@ function TodoForm({ addTodo }) {
       </form>
     </Paper>
   );
-
 }
 export default TodoForm;
