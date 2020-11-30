@@ -22,7 +22,11 @@ function Todo({ id, task, completed, removeTodo, toggleTodo, editTodo }) {
         />
       ) : (
         <>
-         
+         <Checkbox
+            tabIndex={-1}
+            checked={completed}
+            onClick={() => toggleTodo(id)}
+          />
           <ListItemText
             style={{ textDecoration: completed ? "line-through" : "none" }}
           >
